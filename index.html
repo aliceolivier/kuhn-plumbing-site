@@ -1,76 +1,95 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kuhn Plumbing</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuhn Plumbing</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<header>
-<img src="images/logo.png" alt="kuhn plumbing logo" class="logo">
-</header>
+  <header>
+    <h1></h1>
+    <img src="images/logo.png" alt="Kuhn Plumbing logo" class="logo">
+  </header>
 
-<nav>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-<a href="#quote">Request a quote</a>
-</nav>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#quote">Request a Quote</a>
+  </nav>
 
-<section id="services" class="headers">
-<h2>Our Services</h2>
-<p>Leak Repairs</p>
-<p>Blocked Drains</p>
-<p>Bathroom Installations</p>
-<p>Emergency Plumbing</p>
-</section>
+  <section id="services">
+    <h2 class="headers">Our Services</h2>
+    <div class="service-row">
+      <div class="service-images">
+        <img src="images/stock1.jpg" alt="Plumbing services" class="service-image">
+        <img src="images/stock2.jpg" alt="Plumbing services" class="service-image">
+        <img src="images/stock3.jpg" alt="Plumbing services" class="service-image">
+      </div>
+      <div class="service-text">
+        <p>Leak Repairs</p>
+        <p>Blocked Drains</p>
+        <p>Bathroom Installations</p>
+        <p>Emergency Plumbing</p>
+      </div>
+    </div>
+  </section>
 
-<section id="about" class="section">
-<h2 class="headers">About Us</h2>
-<p>We provide professional plumbing services with fast response times and reliable workmanship.</p>
-</section>
+  <section id="about">
+    <h2 class="headers">About Us</h2>
+    <p>We provide professional plumbing services with fast response times and reliable workmanship.</p>
+  </section>
 
-<section id="contact">
-<h2 class="headers">Contact</h2>
-<p>Phone: 012 345 6789</p>
-<p>Email: info@kuhnplumbing.co.za</p>
-</section>
+  <section id="contact">
+    <h2 class="headers">Contact</h2>
+    <p>Phone: 012 345 6789</p>
+    <p>Email: info@kuhnplumbing.co.za</p>
+  </section>
 
-<h2 class="headers">Request a Plumbing Quote</h2>
+  <section id="quote">
+    <h2 class="headers">Request a Plumbing Quote</h2>
     <p>Fill in the form below and we’ll get back to you with a free estimate.</p>
 
     <form id="quoteForm" action="mailto:your-email@example.com" method="post" enctype="text/plain">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" required>
+      <div class="field">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+      <div class="field">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
 
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required>
+      <div class="field">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
 
-      <label for="service">Service Needed:</label>
-      <select id="service" name="service">
-        <option value="leak">Leak Repair</option>
-        <option value="installation">Installation</option>
-        <option value="blocked-drain">Blocked Drain</option>
-        <option value="other">Other</option>
-      </select>
+      <div class="field">
+        <label for="service">Service Needed:</label>
+        <select id="service" name="service">
+          <option value="leak">Leak Repair</option>
+          <option value="installation">Installation</option>
+          <option value="blocked-drain">Blocked Drain</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
 
-      <label for="details">Describe the problem:</label>
-      <textarea id="details" name="details" rows="4"></textarea>
+      <div class="field">
+        <label for="details">Describe the problem:</label>
+        <textarea id="details" name="details" rows="4"></textarea>
+      </div>
 
       <button type="submit">Get My Quote</button>
     </form>
+  </section>
 
-
-<footer>
-<p>© 2026 Kuhn Plumbing</p>
-</footer>
+  <footer>
+    <p>© 2026 Kuhn Plumbing</p>
+  </footer>
 
 </body>
 </html>
