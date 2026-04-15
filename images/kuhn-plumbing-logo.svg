@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Kuhn Plumbing logo</title>
+  <desc id="logoDesc">Stylized pipe and water drop logo with Kuhn Plumbing text.</desc>
+  <defs>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3bb0e7"/>
+      <stop offset="100%" stop-color="#1f7fcc"/>
+    </linearGradient>
+    <linearGradient id="pipeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="100%" stop-color="#1d1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="200" rx="24" fill="none"/>
+  <g transform="translate(40,20)">
+    <path d="M132 16h-80c-18 0-32 14-32 32v44c0 18 14 32 32 32h80c18 0 32-14 32-32V48c0-18-14-32-32-32Z" fill="url(#pipeGrad)"/>
+    <path d="M52 80v20c0 11 9 20 20 20h30v12c0 8.8 7.2 16 16 16h4c8.8 0 16-7.2 16-16v-12h10c11 0 20-9 20-20V80" fill="url(#pipeGrad)"/>
+    <path d="M98 20h12v20h-12z" fill="#3bb0e7"/>
+    <path d="M86 30h32v8H86z" fill="#7fd7ff" opacity="0.9"/>
+    <path d="M142 66c0-6.6 5.4-12 12-12s12 5.4 12 12v20h-24V66Z" fill="url(#waterGrad)"/>
+    <path d="M142 66c0 11.5-9.3 21.4-21 21.4s-21-9.9-21-21.4 21-44.8 21-44.8 21 33.3 21 44.8Z" fill="url(#waterGrad)"/>
+  </g>
+  <text x="220" y="82" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="#1d1d1d">KUHN</text>
+  <text x="220" y="136" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#3b7dc3">Plumbing</text>
+  <text x="220" y="170" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#555">Reliable service for Helderberg homes</text>
+</svg>
